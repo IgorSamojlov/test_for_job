@@ -1,0 +1,14 @@
+h1 Listing articles
+
+table id="article-datatable" data-source=articles_path(format: :json)
+  thead
+    tr
+      th ID
+      th Preview
+      th Description
+      th Author
+  tbody
+  tbody
+br
+
+= link_to 'New Article', new_article_path
